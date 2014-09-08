@@ -1,7 +1,7 @@
 [submodule "_submodules/bootstrap"]
 	path = _submodules/bootstrap
-	url = git://github.com/twbs/bootstrap
+	url = https://github.com/twbs/bootstrap
 
 [submodule "_submodules/bootswatch"]
 	path = _submodules/bootswatch
-	url = git://github.com/thomaspark/bootswatch/
+	url = https://github.com/thomaspark/bootswatch/
