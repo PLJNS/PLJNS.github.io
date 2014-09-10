@@ -1,5 +1,9 @@
 # Site settings
 title: Paul Jones · Application and Web Developer
+brand: Paul Jones
+tagline: Application and Web Developer
+competencies: 
+author: Paul Jones
 email: paulmmj@gmail.com
 description: "From 9 to 5, I work as a Mobile Developer in research and development for Local Wisdom, Inc., working predominantly on Weatherwise. In my spare time, I enjoy making music, taking photographs, and travelling."
 baseurl: ""
