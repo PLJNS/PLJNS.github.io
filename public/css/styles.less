@@ -104,7 +104,7 @@ h1, h2, h3, h4, h5, h6 {
         &:focus,
         &:active,
         &.active {
-            color: darken(@brand-primary, 10%);
+            color: darken(@brand-success, 10%);
         }
     }
     .navbar-collapse {
@@ -134,10 +134,15 @@ h1, h2, h3, h4, h5, h6 {
                     outline: none;
                 }
             }
+
+            a:hover {
+                color: @brand-success;
+            }
+
         }
     }
-    .navbar-nav {
-        text-transform: uppercase;
+    .navbar-nav a:hover {
+        color: @brand-success;
     }
     .navbar-nav>.active>a {
         border-radius: 0;
