@@ -1,0 +1,51 @@
+---
+layout: default
+---
+
+<div id="blog-container">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 col-md-offset-3" id="logo">
+				<span id="sudo">sudo</span><br>
+				<sudo id="philosophical">PHILOSOPHICAL</sudo>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-2 col-md-offset-2">
+				<p class="text-right">By PLJNS</p>
+
+				<ul class="list-unstyled text-right" id="blog-sidebar">
+					<li><a href="mailto:paulmmj@gmail.com">Contact</a></li>
+					<li><a href="">RSS</a></li>
+					<li><a href="http://PLJNS.com">Twitter</a></li>
+				</ul>
+			</div>
+			<div class="col-md-6" id="blog">
+				<dl>
+					{% for post in paginator.posts %}
+						<dt><a href="">{{ post.title }}</a></dt>
+						<dd>{{ post.content }}</dd>
+					{% endfor %}
+				</dl>
+
+				<!-- Pagination links -->
+<ul class="pager">
+  <li class="previous">
+  {% if paginator.previous_page %}
+    <a href="/blog/page{{ paginator.previous_page }}" class="previous">Previous</a>
+  {% endif %}
+  </li>
+  <li class="next">
+  {% if paginator.next_page %}
+    <div class="pull-right"><a href="/blog/page{{ paginator.next_page }}" class="next">Next</a></div>
+      {% endif %}
+
+  </li>
+</ul>
+	        </div>
+		</div>
+	</div>
+</div>

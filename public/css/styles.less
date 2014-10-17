@@ -1,6 +1,6 @@
 
 @import url("//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic");
-@import url("//fonts.googleapis.com/css?family=Vollkorn:400italic,700italic,400,700");
+@import url("//fonts.googleapis.com/css?family=Source+Code+Pro:400,900");
 
 @import "libs/bootswatch/flatly/bootswatch.less";
 
@@ -730,4 +730,452 @@ img {
 
 #resume h5 {
     margin-top: 0px;
+}
+
+/* blog */
+
+html {
+    background-color: #3c4251;
+}
+
+#blog-container {
+    color: white;
+    font-size: 12pt;
+    background-repeat: repeat-x;
+    background-color: #3c4251; /* fallback color if gradients are not supported */
+    /* background-image: -webkit-linear-gradient(45deg, #3c4251, #3c4251, #3c4251, #3c4251, #a47b80); /* For Chrome 25 and Safari 6, iOS 6.1, Android 4.3 */
+    /* background-image:    -moz-linear-gradient(45deg, #3c4251, #3c4251, #3c4251, #3c4251, #a47b80); /* For Firefox (3.6 to 15) */
+    /* background-image:      -o-linear-gradient(45deg, #3c4251, #3c4251, #3c4251, #3c4251, #a47b80); /* For old Opera (11.1 to 12.0) */ 
+    /* background-image:         linear-gradient(45deg, #3c4251, #3c4251, #3c4251, #3c4251, #a47b80); /* Standard syntax; must be last */
+} 
+
+
+
+#blog {
+    a {
+    text-decoration: none;
+    }
+
+a:link {
+    text-decoration: none;
+    color: #ddd;
+    border-color: #888;
+    border-width: 0 0 1px 0;
+    border-style: none none solid none;
+    padding: 3px 0px 2px 0px;
+    background-color: inherit;
+    }
+
+a:visited {
+    color: #ddd;
+    border-color: #999;
+    border-width: 0 0 1px 0;
+    border-style: none none dotted none;
+    padding: 3px 0px 2px 0px;
+    background-color: inherit;
+    }
+
+a:hover {
+    color: white;
+    text-decoration: none;
+    background-color: #606870;
+    border-color: #606870;
+    }
+
+a em {
+    padding-bottom: 2px; /* Hack for WebKit; otherwise the underscore padding is 0 */
+    }
+
+
+sup {
+    line-height: 0px;
+    }
+sup a:link {
+    padding: 3px;
+    }
+sup a:visited {
+    padding: 3px;
+    }
+
+
+p {
+    margin: 0 0 1.6em 0;
+    padding: 0;
+    }
+
+h1 {
+    font-size: 1.55em; /* was 1.46em for Georgia */
+    line-height: 1.5em;
+    text-align: left;
+    font-weight: normal;
+    margin: 0em 0px 1.25em 0px;
+    }
+
+h2 {
+    font-size: 1.1em; /* 1 */
+    text-align: left;
+    font-weight: normal;
+    line-height: 1.8em;
+    letter-spacing: .2em;
+    margin: 4em 0 1em 0;
+    text-transform: uppercase;
+    }
+
+h1 + h2 {
+    margin-top: 2em;
+    }
+h2 + h3 {
+    margin-top: 1.5em;
+    }
+
+h3 {
+    font-size: .91em;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1.8em;
+    letter-spacing: .2em;
+    margin-bottom: 1.4em;
+    margin-top: 3em;
+    text-transform: uppercase;
+    }
+
+
+p + h3 {
+    margin-top: 4em;
+    }
+pre + h3 {
+    margin-top: 4em;
+    }
+
+h6 + h2 {
+    margin-top: 2em;
+    }
+
+
+h4, h5, h6 {
+    font-size: 1em;
+    text-align: left;
+    font-weight: bold;
+    line-height: 1.8em;
+    margin: 2em 0 0 0;
+    }
+
+strong {
+    font-weight: normal;
+    font-size: .91em;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    }
+
+em em {
+    font-style: normal;
+    }
+
+strong strong {
+    font-weight: bold;
+    }
+
+blockquote {
+    font-size: 100%;
+    margin: 2em 2em 2em 1em;
+    padding: 0 .75em 0 1.25em;
+    border-left: 1px solid #777;
+    border-right: 0px solid #777;
+    }
+
+blockquote strong {
+    font-weight: bold;
+    font-size: 1em;
+    letter-spacing: normal;
+    text-transform: none;
+    }
+
+cite {
+    font-weight: normal;
+    font-style: italic;
+    }
+
+img {
+    margin-top: 5px;
+    }
+
+thead {
+    font-weight: bold;
+    }
+
+
+ul, ol {
+    padding-left: 1.25em;
+    margin: 0 0 2em 1em;
+    }
+
+
+pre {
+    line-height: 1.45em;
+    color: #eee;
+    background-color: inherit;
+    margin: 2em 0 2.5em 0;
+    padding: 5px 0 5px 10px;
+    border-width: 1px 0 1px 0;
+    border-color: #6b6b6b;
+    border-style: dashed;
+    }
+
+code {
+    font-size: 0.91em; /* 1.09em for Courier */
+    }
+
+
+ul {
+    list-style-type: square;
+    }
+
+ul ul {
+    list-style-type: square;
+    }
+ul ul ul {
+    list-style-type: square;
+    }
+
+hr {
+    height: 1px;
+    margin: 2em 1em 4em 0;
+    text-align: center;
+    border-color: #777;
+    border-width: 0;
+    border-style: dotted;
+    }
+
+hr.ookiaks {
+    color: #bbb;
+    margin: 7em 0 11em 0;
+    padding-right: 2em;
+    height: 0;
+    border-width: 0;
+    background-color: inherit;
+    }
+hr.ookiaks-jr {
+    color: #bbb;
+    background-color: inherit;
+    margin: 1em 0 5em 0;
+    padding-right: 2em;
+    height: 0;
+    border-width: 0;
+    }
+
+/*
+    hr.ookiak:after rule that use content: to display bullets
+    is specified in a separate style sheet, saves as UTF-8 with
+    BOM. That way this main sheet can be saved without BOM.
+*/
+
+fieldset {
+    border: 1px dotted #777;
+    padding: 1em 1em .5em 1em;
+    margin: 0 0 2.5em 0;
+    }
+
+fieldset p {
+    margin-bottom: 0;
+    padding-bottom: 1em;
+    }
+
+legend {
+    color: #aaa;
+    background-color: inherit;
+    font-weight: normal;
+    font-size: .91em;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    }
+
+dt {
+    font-family: Verdana, "Bitstream Vera Sans", sans-serif;
+    font-size: 1em;
+    text-align: left;
+    font-weight: normal;
+    margin: 0 0 .4em 0;
+    letter-spacing: normal;
+    text-transform: none;
+    }
+dd {
+    margin: 1.0em 1.0em 2.5em 1.0em;
+    }
+
+dd p {
+    margin: 0 0 1em 0;
+    }
+
+input, select  {
+    font-size: 1em;
+    }
+input[type="text"], input[type="password"]   { background-color: #ddd; }
+/*
+input[type="submit"] { background-color: #ccc;  border-width: 1px; }
+*/
+select { background-color: #ddd; }
+
+audio {
+    height: 3em;
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) {
+    audio {
+        height: 150px;
+    }
+
+/* Hack to work around weird blockquote sizes on iPhones 6 */
+    blockquote {
+        font-size: 150%;
+        line-height: 1.6em;
+    }
+
+    h1 {
+        font-size: 200%;
+    }
+}
+}
+
+#logo {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: white;
+    line-height: 25pt;
+}
+
+#sudo {
+    font-family: "Source Code Pro";
+    font-size: 72px;
+    font-weight: 900;
+}
+
+#philosophical {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#blog-sidebar {
+    text-transform: uppercase;
+}
+
+#blog-sidebar a {
+    color: white;
+        text-decoration: none;
+    padding: 3px 0px 2px 0px;
+    background-color: inherit;
+}
+
+#blog-sidebar a:hover {
+    color: white;
+    text-decoration: none;
+    background-color: #606870;
+    border-color: #606870;
+}
+
+.pagination {
+  height: 36px;
+  margin: 18px 0;
+}
+.pagination ul {
+  display: inline-block;
+  *display: inline;
+  /* IE7 inline-block hack */
+
+  *zoom: 1;
+  margin-left: 0;
+  margin-bottom: 0;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+.pagination li {
+  display: inline;
+}
+.pagination a {
+  float: left;
+  padding: 0 14px;
+  line-height: 34px;
+  text-decoration: none;
+  border: 1px solid #ddd;
+  border-left-width: 0;
+}
+.pagination a:hover,
+.pagination .active a {
+  background-color: #f5f5f5;
+}
+.pagination .active a {
+  color: #999999;
+  cursor: default;
+}
+.pagination .disabled span,
+.pagination .disabled a,
+.pagination .disabled a:hover {
+  color: #999999;
+  background-color: transparent;
+  cursor: default;
+}
+.pagination li:first-child a {
+  border-left-width: 1px;
+  -webkit-border-radius: 3px 0 0 3px;
+  -moz-border-radius: 3px 0 0 3px;
+  border-radius: 3px 0 0 3px;
+}
+.pagination li:last-child a {
+  -webkit-border-radius: 0 3px 3px 0;
+  -moz-border-radius: 0 3px 3px 0;
+  border-radius: 0 3px 3px 0;
+}
+.pagination-centered {
+  text-align: center;
+}
+.pagination-right {
+  text-align: right;
+}
+.pager {
+  margin-left: 0;
+  margin-bottom: 18px;
+  list-style: none;
+  text-align: center;
+  *zoom: 1;
+}
+.pager:before,
+.pager:after {
+  display: table;
+  content: "";
+}
+.pager:after {
+  clear: both;
+}
+.pager li {
+  display: inline;
+}
+.pager a {
+  display: inline-block;
+  padding: 5px 14px !important;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+}
+.pager a:hover {
+  text-decoration: none;
+  background-color: #f5f5f5;
+}
+.pager .next a {
+  float: right;
+}
+.pager .previous a {
+  float: left;
+}
+.pager .disabled a,
+.pager .disabled a:hover {
+  color: #999999;
+  background-color: #fff;
+  cursor: default;
 }
