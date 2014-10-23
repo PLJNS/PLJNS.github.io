@@ -734,53 +734,28 @@ img {
 
 /* blog */
 
-html {
-    background-color: #3c4251;
-}
-
-#blog-container {
-    color: white;
-    font-size: 12pt;
+#top-bar {
     background-repeat: repeat-x;
     background-color: #3c4251; /* fallback color if gradients are not supported */
     /* background-image: -webkit-linear-gradient(45deg, #3c4251, #3c4251, #3c4251, #3c4251, #a47b80); /* For Chrome 25 and Safari 6, iOS 6.1, Android 4.3 */
     /* background-image:    -moz-linear-gradient(45deg, #3c4251, #3c4251, #3c4251, #3c4251, #a47b80); /* For Firefox (3.6 to 15) */
     /* background-image:      -o-linear-gradient(45deg, #3c4251, #3c4251, #3c4251, #3c4251, #a47b80); /* For old Opera (11.1 to 12.0) */ 
     /* background-image:         linear-gradient(45deg, #3c4251, #3c4251, #3c4251, #3c4251, #a47b80); /* Standard syntax; must be last */
+    margin-bottom:25px;
 } 
 
 
 
 #blog {
+
+color: black;
+    font-size: 13pt;
+
     a {
     text-decoration: none;
     }
 
-a:link {
-    text-decoration: none;
-    color: #ddd;
-    border-color: #888;
-    border-width: 0 0 1px 0;
-    border-style: none none solid none;
-    padding: 3px 0px 2px 0px;
-    background-color: inherit;
-    }
 
-a:visited {
-    color: #ddd;
-    border-color: #999;
-    border-width: 0 0 1px 0;
-    border-style: none none dotted none;
-    padding: 3px 0px 2px 0px;
-    background-color: inherit;
-    }
-
-a:hover {
-    color: white;
-    text-decoration: none;
-    background-color: #606870;
-    border-color: #606870;
-    }
 
 a em {
     padding-bottom: 2px; /* Hack for WebKit; otherwise the underscore padding is 0 */
@@ -990,7 +965,6 @@ legend {
     }
 
 dt {
-    font-size: 1em;
     text-align: left;
     font-weight: normal;
     margin: 0 0 .4em 0;
@@ -1039,7 +1013,7 @@ and (max-device-width : 568px) {
 
 #logo {
     padding-top: 25px;
-    padding-bottom: 25px;
+    padding-bottom: 22px;
     color: white;
     line-height: 25pt;
 }
@@ -1060,17 +1034,13 @@ and (max-device-width : 568px) {
 }
 
 #blog-sidebar a {
-    color: white;
         text-decoration: none;
     padding: 3px 0px 2px 0px;
     background-color: inherit;
 }
 
 #blog-sidebar a:hover {
-    color: white;
     text-decoration: none;
-    background-color: #606870;
-    border-color: #606870;
 }
 
 .pagination {
@@ -1156,15 +1126,14 @@ and (max-device-width : 568px) {
 .pager a {
   display: inline-block;
   padding: 5px 14px !important;
-  background-color: #fff;
-  border: 1px solid #ddd;
+  background-color: @brand-primary;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
   border-radius: 15px;
 }
 .pager a:hover {
   text-decoration: none;
-  background-color: #f5f5f5;
+  background-color: darken(@brand-primary, 10%);
 }
 .pager .next a {
   float: right;

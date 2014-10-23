@@ -3,30 +3,24 @@ layout: default
 ---
 
 <div id="blog-container">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-3 col-md-offset-3" id="logo">
-				<span id="sudo">sudo</span><br>
-				<sudo id="philosophical">PHILOSOPHICAL</sudo>
+	<div id="top-bar">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 col-md-offset-2" id="logo">
+					<span id="sudo">sudo</span><br>
+					<span id="philosophical">PHILOSOPHICAL</span>
+					<span>by Paul Jones</span>
+				</div>
 			</div>
 		</div>
 	</div>
 
-	<div class="container">
+	<div class="container" style="background-color:white;">
 		<div class="row">
-			<div class="col-md-2 col-md-offset-2">
-				<p class="text-right">By PLJNS</p>
-
-				<ul class="list-unstyled text-right" id="blog-sidebar">
-					<li><a href="mailto:paulmmj@gmail.com">Contact</a></li>
-					<li><a href="">RSS</a></li>
-					<li><a href="http://PLJNS.com">Twitter</a></li>
-				</ul>
-			</div>
-			<div class="col-md-6" id="blog">
+					<div class="col-md-7 col-md-offset-2" id="blog">
 				<dl>
 					{% for post in paginator.posts %}
-						<dt><a href="">{{ post.title }}</a></dt>
+						<dt><h1>{{ post.title }}</h1></dt>
 						<dd>{{ post.content }}</dd>
 					{% endfor %}
 				</dl>
@@ -46,6 +40,14 @@ layout: default
   </li>
 </ul>
 	        </div>
+			<div class="col-md-2">
+				<ul class="list-unstyled" id="blog-sidebar">
+					<li><a href="../">Home</a></li>
+					<li><a href="mailto:paulmmj@gmail.com">Contact</a></li>
+					<li><a href="">RSS</a></li>
+					<li><a href="http://twitter.com/PLJNS">Twitter</a></li>
+				</ul>
+			</div>
 		</div>
 	</div>
 </div>
