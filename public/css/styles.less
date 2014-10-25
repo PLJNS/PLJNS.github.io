@@ -44,14 +44,14 @@ a.active {
 }
 
 a {
-    color: @brand-primary;
+    color: lighten(@brand-primary, 15%)
 }
 
 a:hover,
 a:focus,
 a:active,
 a.active {
-    color: darken(@brand-primary, 10%);
+    color: lighten(@brand-primary, 35%);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -779,20 +779,20 @@ p {
     }
 
 h1 {
-    font-size: 1.55em; /* was 1.46em for Georgia */
+    font-size: 1.75em; /* was 1.46em for Georgia */
     line-height: 1.5em;
     text-align: left;
     font-weight: normal;
-    margin: 0em 0px 1.25em 0px;
+    margin: 0em 0px 0em 0px;
     }
 
 h2 {
-    font-size: 1.1em; /* 1 */
+    font-size: 1.25em; /* 1 */
     text-align: left;
     font-weight: normal;
     line-height: 1.8em;
     letter-spacing: .2em;
-    margin: 4em 0 1em 0;
+    margin: 1em 0 1em 0;
     text-transform: uppercase;
     }
 
@@ -804,31 +804,17 @@ h2 + h3 {
     }
 
 h3 {
-    font-size: .91em;
+    font-size: 1.15em;
     text-align: left;
     font-weight: normal;
     line-height: 1.8em;
     letter-spacing: .2em;
     margin-bottom: 1.4em;
-    margin-top: 3em;
     text-transform: uppercase;
     }
 
-
-p + h3 {
-    margin-top: 4em;
-    }
-pre + h3 {
-    margin-top: 4em;
-    }
-
-h6 + h2 {
-    margin-top: 2em;
-    }
-
-
 h4, h5, h6 {
-    font-size: 1em;
+    font-size: 1.05em;
     text-align: left;
     font-weight: bold;
     line-height: 1.8em;
@@ -886,18 +872,15 @@ ul, ol {
 
 
 pre {
-    line-height: 1.45em;
-    color: #eee;
+    line-height: 1.25em;
     background-color: inherit;
     margin: 2em 0 2.5em 0;
     padding: 5px 0 5px 10px;
-    border-width: 1px 0 1px 0;
-    border-color: #6b6b6b;
-    border-style: dashed;
+    border-width: 1px 1px 1px 1px;
     }
 
 code {
-    font-size: 0.91em; /* 1.09em for Courier */
+    font-size: 0.75em; /* 1.09em for Courier */
     }
 
 
@@ -914,11 +897,8 @@ ul ul ul {
 
 hr {
     height: 1px;
-    margin: 2em 1em 4em 0;
+    margin: 2em 1em 2em 0;
     text-align: center;
-    border-color: #777;
-    border-width: 0;
-    border-style: dotted;
     }
 
 hr.ookiaks {
@@ -945,7 +925,6 @@ hr.ookiaks-jr {
 */
 
 fieldset {
-    border: 1px dotted #777;
     padding: 1em 1em .5em 1em;
     margin: 0 0 2.5em 0;
     }
@@ -963,6 +942,14 @@ legend {
     letter-spacing: .2em;
     text-transform: uppercase;
     }
+
+dt a {
+    color: black;
+}
+
+dt a:hover {
+    color: @brand-primary;
+}
 
 dt {
     text-align: left;
@@ -1029,121 +1016,23 @@ and (max-device-width : 568px) {
     font-size: 24px;
 }
 
-#blog-sidebar {
-    text-transform: uppercase;
+#byline {
+    color: lighten(@brand-primary, 50%);
 }
 
 #blog-sidebar a {
-        text-decoration: none;
+    text-decoration: none;
     padding: 3px 0px 2px 0px;
     background-color: inherit;
+    font-size: 18px;
 }
 
 #blog-sidebar a:hover {
     text-decoration: none;
 }
 
-.pagination {
-  height: 36px;
-  margin: 18px 0;
-}
-.pagination ul {
-  display: inline-block;
-  *display: inline;
-  /* IE7 inline-block hack */
-
-  *zoom: 1;
-  margin-left: 0;
-  margin-bottom: 0;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
-  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
-  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
-}
-.pagination li {
-  display: inline;
-}
-.pagination a {
-  float: left;
-  padding: 0 14px;
-  line-height: 34px;
-  text-decoration: none;
-  border: 1px solid #ddd;
-  border-left-width: 0;
-}
-.pagination a:hover,
-.pagination .active a {
-  background-color: #f5f5f5;
-}
-.pagination .active a {
-  color: #999999;
-  cursor: default;
-}
-.pagination .disabled span,
-.pagination .disabled a,
-.pagination .disabled a:hover {
-  color: #999999;
-  background-color: transparent;
-  cursor: default;
-}
-.pagination li:first-child a {
-  border-left-width: 1px;
-  -webkit-border-radius: 3px 0 0 3px;
-  -moz-border-radius: 3px 0 0 3px;
-  border-radius: 3px 0 0 3px;
-}
-.pagination li:last-child a {
-  -webkit-border-radius: 0 3px 3px 0;
-  -moz-border-radius: 0 3px 3px 0;
-  border-radius: 0 3px 3px 0;
-}
-.pagination-centered {
-  text-align: center;
-}
-.pagination-right {
-  text-align: right;
-}
-.pager {
-  margin-left: 0;
-  margin-bottom: 18px;
-  list-style: none;
-  text-align: center;
-  *zoom: 1;
-}
-.pager:before,
-.pager:after {
-  display: table;
-  content: "";
-}
-.pager:after {
-  clear: both;
-}
-.pager li {
-  display: inline;
-}
-.pager a {
-  display: inline-block;
-  padding: 5px 14px !important;
-  background-color: @brand-primary;
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
-  border-radius: 15px;
-}
-.pager a:hover {
-  text-decoration: none;
-  background-color: darken(@brand-primary, 10%);
-}
-.pager .next a {
-  float: right;
-}
-.pager .previous a {
-  float: left;
-}
-.pager .disabled a,
-.pager .disabled a:hover {
-  color: #999999;
-  background-color: #fff;
-  cursor: default;
+.footer p {
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 36px;
 }

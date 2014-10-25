@@ -5,7 +5,7 @@ title: Presentation on Humean Supervenience
 
 
 
-<div class="flex-video">
+<div class="embed-responsive embed-responsive-16by9">
         <iframe width="560" height="315" src="//www.youtube.com/embed/WTWMlm9NNes" frameborder="0" allowfullscreen></iframe>
 </div>
 

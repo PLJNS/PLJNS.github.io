@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "WWDC2014: A Developer and Fanboy Reaction"
+title: "WWDC2014 Reaction"
 ---
 
 Apple's Worldwide Developer Conference may be one of the most misunderstood conferences held by

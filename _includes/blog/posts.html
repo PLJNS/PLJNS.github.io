@@ -1,0 +1,9 @@
+<dl>
+	{% for post in paginator.posts %}
+		<dt><h1><a href="{{ post.url }}">{{ post.title }}</a></h1></dt>
+		<dd>{{ post.content }}<br>
+		<p class="text-muted date-line">{{ post.date | date: "%-d %B %Y" }}</p>
+		</dd>
+		<hr>
+	{% endfor %}
+</dl>

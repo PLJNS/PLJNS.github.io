@@ -1,7 +1,9 @@
 ---
 layout: post
-title: "Philosophy's Not Dead: The Wave Function, Breakfast Cereal, and Philosophy of X"
+title: "Philosophy's Not Dead"
 ---
+
+### The Wave Function, Breakfast Cereal, and Philosophy of X
 
 Philosophy is *the* oldest study in the world, arguably beginning when
 Plato established the
