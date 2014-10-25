@@ -267,14 +267,5 @@ compiled, on-device application development, even more powerfully because I can 
 server-side logic on device and off-shore the task of running and maintaining to Apple's servers. 
 Revolutionary.
 
-### Conclusion
-
-To elucidate my reaction to WWDC, I offer this table.
-
-Reaction  | OS X Yosemite              | iOS 8     | "The space between" | `DEV`
-----------|----------------------------|-----------|---------------------|--------------------|
-Fanboy    | Awesome!                   | Meh.      | Awesome!            | What?              |
-Developer | Meh, iCloud Drive is cool. | Awesome!  | Awesome!            | Awesome!           |
-
 
 
