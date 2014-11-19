@@ -12,4 +12,4 @@ architecture from George Fairbanks, an author, academic, and software
 architect. As a mobile developer fresh out of school, I feel as though
 the reliance on frameworks has made my job easier but also tied me
 to certain vendors. I see awareness of my code's underlying architecture as a means
-of escaping vendor lock-in.
+of escaping vendor lock-in. 
