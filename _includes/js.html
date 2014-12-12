@@ -6,8 +6,8 @@
 <script src="{{ "/assets/js/jquery.prettyPhoto.js" | prepend: site.baseurl }}"></script>
 <script src="{{ "/assets/js/jquery.isotope.min.js" | prepend: site.baseurl }}"></script>
 <script src="{{ "/assets/js/jquery.easing.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/assets/js/jquery.simple-text-rotator.min.js" | prepend: site.baseurl }}"></script>
 <script src="{{ "/assets/js/classie.js" | prepend: site.baseurl }}"></script>
-<script src="{{ "/assets/js/wow.js" | prepend: site.baseurl }}"></script>
 <script src="{{ "/assets/js/custom.js" | prepend: site.baseurl }}"></script>
 
 <script>
@@ -67,7 +67,11 @@ $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
 
-new WOW().init();
+$(".rotate").textrotator({
+  animation: "flipUp", // You can pick the way it animates when rotating through words. Options are dissolve (default), fade, flip, flipUp, flipCube, flipCubeUp and spin.
+  separator: ",", // If you don't want commas to be the separator, you can define a new separator (|, &, * etc.) by yourself using this field.
+  speed: 2250 // How many milliseconds until the next word show.
+});
 
 </script>
 
