@@ -1,22 +1,13 @@
+### GENERAL SETTINGS ###
+
 # Site settings
-title: Paul Jones · Application and Web Developer
-brand: Paul Jones
-tagline: Application and Web Developer
-competencies: 
-author: Paul Jones
-email: paulmmj@gmail.com
-description: "From 9 to 5, I work as a Mobile Developer in research and development for Local Wisdom, Inc., working predominantly on Weatherwise. In my spare time, I enjoy making music, taking photographs, and travelling."
-baseurl: ""
-url: "http://pljns.com"
-twitter_username: pljns
-github_username:  pljns
+title: PLJNS
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+analytics: #Google analytics code in the format XX-nnnnnnnn-n
+baseurl: "" #important: start with /
+url: "http://yourdomain.com"
 
 # Build settings
 markdown: kramdown
-permalink: pretty
-
-paginate: 20
-paginate_path: "blog/page:num"
-
-gems:
-  - jekyll-redirect-from
+permalink: /:categories/:title
+excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
