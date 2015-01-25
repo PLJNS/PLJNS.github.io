@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<div class="container">
+    <div class="row text-center">
+        <div class="col-md-4 col-md-offset-4">
+            <div class="btn-group" id="page-pagination">
+                {% if page.prev %}
+                    <a href="{{ page.prev.url }}" class="btn btn-default see-more"><i class="fa fa-angle-left"></i> {{ page.prev.title }}</a>
+                {% endif %}
+                {% if page.after %}
+                    <a href="{{ page.after.url }}" class="btn btn-default see-more">{{ page.after.title }} <i class="fa fa-angle-right"></i> </a>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+    

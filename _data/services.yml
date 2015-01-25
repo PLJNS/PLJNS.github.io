@@ -1,0 +1,156 @@
+- name: Application Development
+  icon: fa-desktop
+  desc: >
+        I can develop modern and reliable desktop applications for Mac OS X 
+        for your internal utility or consumer-facing product idea.
+
+- name: Mobile Development
+  icon: fa-mobile
+  desc: >
+        From games to visualizations to productivity apps, I can develop powerful 
+        and intuitive apps for iOS, Android, and other mobile platforms.
+
+- name: Web Development
+  icon: fa-code
+  desc: >
+        If you want a cloud syncing service or a simple webpage, 
+        I'm an able programmer of web sites and web services.
+
+- name: iOS and OS X
+  icon: fa-apple
+  desc: >
+        You have an app idea for iOS, OS X, or both, and I am 
+        passionate about crafting high-quality, standards-compliant,
+        and elegant programs with Cocoa and Cocoa Touch. Let's work together.
+
+- name: Android
+  icon: fa-android
+  desc: >
+        You want an Android app, and perhaps a simultaneous launch on iOS, 
+        and I can build high-performance and modern Android apps which share
+        code with other platforms for maximum impact.
+
+- name: 'HTML5, CSS3, and JS'
+  icon: fa-html5
+  desc: >
+        The web remains the largest common denominator for all your possible
+        customers, and you want a high-quality and impressive website.
+        I can develop one for you.
+
+- name: Databases
+  icon: fa-database
+  desc: >
+        Efficient organization and maintenance of digital information can 
+        be the differentiating factor between a successful enterprise and
+        a mess. I can design and develop stable and reliable databases for
+        a variety of targets, in particular with SQL technologies like MySQL
+        and SQLite.
+
+- name: Cloud Programming
+  icon: fa-cloud
+  desc: >
+        Public and private cloud storage and platform reduce the barrier-of-entry
+        for businesses to create sophisticated systems and create robust applications,
+        but also pose new challenges. 
+        I can develop and deploy cloud systems,
+        either using public clouds like Parse, iCloud, or Heroku, or creating private
+        clouds using Rackspace and OpenStack.
+
+- name: 2D Graphics
+  icon: fa-cube
+  desc: >
+        Animated 2D scenes have been at the heart of many of the best selling
+        apps, and UI animations can take make a good app great. I can build
+        entire robust 2D scenes, or just add a little polish. 
+        I'm competent with cross-platform game engines and native animations on 
+        the web, desktop, and mobile platforms.
+
+- name: Design
+  icon: fa-eyedropper
+  desc: >
+        Design is a paramount consideration for any digital product,
+        as users have come to expect beautiful and functional software.
+        I can take your existing architecture (or create new architecture)
+        and style it consistently across platforms, deviating only for
+        platform-specific design guidelines. I'm passionate about good
+        typography and clean, usable design.
+
+- name: Photography and Photo Editing
+  icon: fa-camera-retro
+  desc: >
+        Beautiful and consistent photography can make your organizations
+        website or content strategy shine. I am equipped with a professional-grade
+        DSLR and I can use it to capture your office, your team, and any of your
+        events. Often portraits and group shots need a little touching up, and I can
+        edit photographs I've taken to give your brand a professional look.
+
+- name: Information Architecture
+  icon: fa-sitemap
+  desc: >
+        The hierarchy of information in a digital product determines 
+        whether your end-users can or cannot access what their looking
+        for. In addition to designing the databases which your software
+        and the look-and-feel which your user's see, I can structure the
+        views in an intuitive fashion.
+
+- name: Data Visualization
+  icon: fa-line-chart
+  desc: >
+        To make sense of the numbers that our machines collect and consume,
+        often a picture goes a long way to kickstart our understanding.
+        Visualizations can range from charts and graphs to data-powered
+        2D scenes, and I can build this and more for you.
+
+- name: Project Management
+  icon: fa-check-square
+  desc: >  
+        Without an unambigious way forward, it's especially easy for software
+        development to fall behind and lose focus of launch. I've got experience
+        working with and on a variety of teams including developers, designers,
+        and clients. 
+
+- name: Agile Development
+  icon: fa-clock-o
+  desc: >
+        The conventional way of passing work from one level of development
+        to the next is often not as effective as everyone working with a
+        just-in-time mentality. I've worked with a variety of team members
+        involved in different levels of the software development process in
+        simultaneaity, and am versed in the advantages of agile development. 
+
+- name: Test-Driven Development
+  icon: fa-exclamation-circle
+  desc: >
+        The best way to assure that your code runs as exepected every single
+        time it runs is to clearly define the range and expected outputs of
+        your functions. I can develop from the ground-upwards with a TDD
+        approach or move exisiting software onto TDD.
+
+- name: Localization and Accessibility
+  icon: fa-language
+  desc: >
+        You want your software to be usable by the greatest amount of
+        audiences, including user's which may not share your native
+        toungue, may use different input devices, and perhaps architecture
+        governments or other institutions. Making sure that software
+        can be deployed internationally and is usable by people with
+        a range of usage differences is important to me. (And I can even
+        help you with the French translation!)
+
+- name: Content Strategy and SEO
+  icon: fa-newspaper-o
+  desc: >
+        Not only is the development of the medium for your communication
+        important, but the schedule and process of posting new information
+        to your app or website is crucial to keeping your customers engaged
+        and keeping your software up-to-date. I can help you with establishing
+        processes for updating your content, and make sure that all the steps
+        required for search engines to take notices are taken.
+
+- name: Copy Writing
+  icon: fa-paragraph
+  desc: >
+        You have a clear idea of what you want to communicate to your users,
+        but perhaps your unsure about how specifically to word it to maximize
+        comprehension. I have training in reading, writing, and editing of
+        content and would be delighted to craft your message with you.

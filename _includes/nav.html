@@ -1,0 +1,40 @@
+<nav class="navbar navbar-inverse {% if page.title != 'Home' %} navbar-static navbar-interior navbar-shrink {% else %} navbar-fixed-top {% endif %}">
+    <div class="container">
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand page-scroll" href="{% if page.title == 'Home' %}#page-top{% else %}/index.html{%endif%}">{{ site.brand }}</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                {% assign navsymbol = '#' %}
+                {% assign navextension = '' %}
+
+                {% if page.title != 'Home' %}
+                    {% assign navsymbol = '/' %}
+                    {% assign navextension = '.html' %}
+                {% endif %}
+
+                <li class="hidden">
+                    <a href="#intro"></a>
+                </li>
+                <li class="{% if page.title contains 'Portfolio' or page.active == 'portfolio' %}active{% endif %}">
+                    <a class="page-scroll" href="{{ navsymbol }}portfolio{{ navextension }}">Portfolio</a>
+                </li>
+                <li class="{% if page.title contains 'Services' %}active{% endif %}">
+                    <a class="page-scroll" href="{{ navsymbol }}services{{ navextension }}">Services</a>
+                </li>
+                <li class="{% if page.title contains 'Blog' or page.active == 'blog' %}active{% endif %}">
+                    <a class="page-scroll" href="{{ navsymbol }}blog{{ navextension }}">Blog</a>
+                </li>
+                <li class="{% if page.title contains 'Contact' %}active{% endif %}">
+                    <a class="page-scroll" href="{{ navsymbol }}contact{{ navextension }}">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>

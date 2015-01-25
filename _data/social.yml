@@ -1,0 +1,15 @@
+- name: Twitter
+  icon: twitter
+  link: http://twitter.com/pljns
+- name: Instagram
+  icon: instagram
+  link: http://instagram.com/pljns/
+- name: github
+  icon: github
+  link: http://www.github.com/pljns
+- name: LinkedIn
+  icon: linkedin
+  link: http://www.linkedin.com/in/paulmmj/
+- name: Youtube
+  icon: youtube
+  link: https://www.youtube.com/user/paulmmj/
