@@ -8,7 +8,7 @@ title: Home
         <div class="container">
             <div class="intro-text">
                 <h1 class="intro-heading">Hello, I'm Paul.</h1>
-                <h3 class="intro-lead-in">And I <i class="fa fa-heart-o animated infinite pulse"></i> developing great software.</h3>
+                <h3 class="intro-lead-in">I <i class="fa fa-heart-o animated infinite pulse"></i> developing great software.</h3>
             </div>
         </div>
     </header>
@@ -88,6 +88,7 @@ title: Home
                                     <i class="fa fa-{{ post.icon }} fa-stack-1x fa-inverse"></i>
                                 </span>
                                 <h4 class="post-title">{{ post.title }}</h4>
+                                <p class="section-description text-muted">{{ post.date | date: "%-d %B %Y" }}</p>
                             </div>
                         </a>
                     </div>
