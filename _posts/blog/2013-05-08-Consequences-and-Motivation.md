@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Consequences and Motivation
+subtitle: The human psyche and programming
 categories:
 - blog
 ---

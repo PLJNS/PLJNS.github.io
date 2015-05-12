@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Developer Journal: MVC and Interoperability"
+subtitle: Architecting applications in the most cross-compatible way
 categories:
 - blog
 ---
