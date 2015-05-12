@@ -21,5 +21,4 @@ badges:
 ---
 
 The Johnson and Johnson Investor Relations Mobile App gives users the latest
-stock quote, press releases, media, and filings. It features exquisite design
-and 
+stock quote, press releases, media, and filings. I led the development, upgraded from an iOS 5/6 app to an iOS 7/8 app, implementing push notifications, bookmarks, analytics, and more.
