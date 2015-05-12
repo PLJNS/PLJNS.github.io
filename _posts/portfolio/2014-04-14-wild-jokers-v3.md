@@ -17,8 +17,6 @@ categories:
 - portfolio
 ---
 
-I love electronic music and brand design. These are two quite disparate 
-activities, but I found a perfect union with New Jersey based record
-label WILD JOKERS. I worked with the Jokers to define their brand identity and
-content strategy, and I helped bring the WILD JOKERS from having no 
-web presence or properties into a burgeoning brand. 
+The Jokers are a burgeoning brand, so their needs are always growing.
+Also, their website and branding is an outlet for my developing graphic design skills,
+which are also always growing. This is the latest version, go check it out!
