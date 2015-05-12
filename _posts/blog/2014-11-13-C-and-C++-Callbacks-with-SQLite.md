@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "C and C++ Callbacks with SQLite"
+subtitle: Using SQLite and multiple programming languages
 icon: code
 categories:
 - blog

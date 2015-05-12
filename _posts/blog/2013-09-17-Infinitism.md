@@ -1,6 +1,7 @@
 ---
 layout: post
 title: What Infinitism is Contingent On
+subtitle: Theorizing about the structure of justification
 categories:
 - blog
 ---

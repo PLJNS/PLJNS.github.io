@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Understanding Epistemology
+subtitle: An introduction to the obscure field of the theory of knowledge
 categories:
 - blog
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Consciousness and Assembly
+subtitle: Exploring where computer science and philosophy overlap
 categories:
 - blog
 ---

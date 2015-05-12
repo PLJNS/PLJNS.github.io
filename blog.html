@@ -9,15 +9,37 @@ after:
   title: Contact
 ---
 
-<div class="container">
-  <div class="row">
-    <div class="col-md-8 col-md-offset-2" id="blog-main">
-      {% for post in site.categories['blog'] limit:5 %}
-        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-        <p class="blog-post-meta text-muted date-line">{{ post.date | date: "%-d %B %Y" }}</a></p>
-        {{ post.content }}
-        <hr>
-      {% endfor %}
-    </div>
+<header class="intro-header" style="background-image: url('img/home-bg.jpg')">
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+              <div class="site-heading">
+                  <h1 class="font-weight-heavy">Sudophilosophical</h1>
+                  <hr class="small">
+                  <h3 class="subheading font-weight-light">A weblog from a software developer in Brooklyn</h3>
+              </div>
+          </div>
+      </div>
   </div>
+</header>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        {% for post in site.categories['blog'] %}
+            <div class="post-preview">
+                <a href="{{ post.url }}">
+                    <h2 class="font-weight-heavy">
+                        {{ post.title }}
+                    </h2>
+                    <h3 class="font-weight-light">
+                        {{ post.subtitle }}
+                    </h3>
+                </a>
+                <p class="post-meta text-muted">Posted on {{ post.date | date: "%-d %B %Y" }}</p>
+            </div>
+            <hr>
+            {% endfor %}
+        </div>
+    </div>
 </div>

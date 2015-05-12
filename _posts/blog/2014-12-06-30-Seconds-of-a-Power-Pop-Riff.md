@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "30 Seconds of a Power-pop Riff"
+subtitle: Bluffing my way through music production
 icon: music
 categories:
 - blog

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Software Architecture with George Fairbanks"
+subtitle: An excellent lecture for computer scientists
 icon: film
 categories:
 - blog
